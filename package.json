@@ -17,6 +17,10 @@
     "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
+  "resolutions": {
+    "**/node-forge": "0.10.0"
+  },
+  
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
@@ -41,4 +45,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
